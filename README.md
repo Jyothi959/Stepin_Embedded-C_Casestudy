@@ -1,3 +1,5 @@
+#Stepin_Embedded-C_Casestudy
+
 CASE STUDY OF CAR HEAT SEAT CONTROLLER
 * In the places where snow falls or temperature is less,that is around zero degree centigrade, people feel comfort if the car seats are warm while travelling.
 * In this project Microcontroller ATMega 328 is used to control seat temperature.
