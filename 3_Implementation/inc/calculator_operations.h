@@ -1,47 +1,38 @@
-/** 
-* @file calculator_operations.h
-* Calculator application with 4 mathematical operations
-*
-*/
-#ifndef __CALCULATOR_OPERATIONS_H__
-#define __CALCULATOR_OPERATIONS_H__
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdio_ext.h>
+Activity 1
+#ifndef LED_H_INCLUDED
+#define LED_H_INCLUDED
+#define read_D PIND
 
 /**
-*  adds the operand1 and operand2 and returns the result
-* @param[in] operand1 
-* @param[in] operand2 
-* @return Result of operand1 + operand2
-*/
-int add(int operand1, int operand2);
+ * @file Activity1.h
+ * @brief contains io header to daclare ports and registers
+ * @version 0.1
+ * @date 2021-04-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 
+/** \brief LED connected to PORT B0 will glow
+ *
+ *
+ */
+void LED_PORTB0_HIGH(void);
+
+/** \brief LED connected to PORT B0 will turn low
+ *
+ *
+ */
+
+void LED_PORTB0_LOW(void);
 /**
-*  subtracts the operand1, operand2 and returns the result
-* @param[in] operand1 
-* @param[in] operand2 
-* @return Result of operand1 - operand2
-*/
-int subtract(int operand1, int operand2);
+ * @brief Initialise of input output ports
+ * 
+ */
+void initialise_ports_a1(void);
 
-/**
-*  multiply the operand1, operand2 and returns the result
-* @param[in] operand1 
-* @param[in] operand2 
-* @return Result of operand1 * operand2
-*/
-int multiply(int operand1, int operand2);
+void LED_PORTC2_HIGH(void);
 
+void LED_PORTC2_LOW(void);
 
-/**
-* divides the operand1 by operand2 and returns the result 
-* @param[in] operand1 
-* @param[in] operand2 
-* @return integer value of the operand1 / operand2
-* @note returns 0 for divide by 0 error
-*/
-int divide(int operand1, int operand2);
-
-#endif  /* #define __CALCULATOR_OPERATIONS_H__ */
+#endif // LED_H_INCLUDED
