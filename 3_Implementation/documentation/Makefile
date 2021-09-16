@@ -1,4 +1,10 @@
-# Document the code using Doxygen
+DOXY_FILE = Car
+BUILD_FILE = html
 
-doc: Doxyfile
-	doxygen ./Doxyfile
+FixPath = $(subst /,\,$1)
+
+doc:
+	doxygen ./$(DOXY_FILE)
+
+clean:
+	rm -rf $(call FixPath,$(BUILD_FILE)/*)
