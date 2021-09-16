@@ -153,3 +153,7 @@ int main(void)
 
  return 0;
  }
+ OUTPUT 1
+ ![image](https://user-images.githubusercontent.com/89759853/133657264-ce9d6c34-9f13-45e0-bde3-05ed623df126.png)
+![image](https://user-images.githubusercontent.com/89759853/133657296-77db1e0d-3dec-4e1e-ab0d-f1bce37772d1.png)
+
