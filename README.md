@@ -13,6 +13,8 @@
 
 
 [![Code Quality Score](https://www.code-inspector.com/project/28785/score/svg)
+ 
+ .[![code quality badge](https://www.code-inspector.com/project/28785/status/svg) 
 
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c5dd67bb2c6a4cea8c788baabb4ea5dd)](https://www.codacy.com/gh/Jyothi959/Embedded-C_Casestudy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Jyothi959/Embedded-C_Casestudy&amp;utm_campaign=Badge_Grade)
