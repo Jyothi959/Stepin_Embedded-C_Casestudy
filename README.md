@@ -11,3 +11,6 @@ CASE STUDY OF CAR HEAT SEAT CONTROLLER
 * for different range of temperature values different PWM value signal is generated.
 * when temperature rises above 25 deg,PWM signal will be 0(low).
 * All this opeartion is automatic and also temperature range is transmitted to serial output.
+
+![image](https://user-images.githubusercontent.com/89759853/133541071-e3e00cf6-d818-4825-9a23-7f49497b514b.png)
+
