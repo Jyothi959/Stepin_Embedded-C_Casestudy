@@ -10,7 +10,7 @@
 * For different range of temperature values different PWM value signal is generated.
 * When temperature rises above 25 deg,PWM signal will be 0(low).
 * All this opeartion is automatic and also temperature range is transmitted to serial output.
-
+[! code quality score:  https://www.code-inspector.com/project/28785/score/svg]
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c5dd67bb2c6a4cea8c788baabb4ea5dd)](https://www.codacy.com/gh/Jyothi959/Embedded-C_Casestudy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Jyothi959/Embedded-C_Casestudy&amp;utm_campaign=Badge_Grade)
 
  
